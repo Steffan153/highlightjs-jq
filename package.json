@@ -1,21 +1,19 @@
 {
-  "name": "highlightjs-your-language",
+  "name": "highlightjs-jq",
   "version": "0.1.0",
-  "author": "John Foster",
-  "description": "A new language template set up when creating a language definition for highlightjs",
-  "main": "src/languages/your-language.js",
-  "scripts": {
-    "test": "jasmine"
-  },
+  "author": "Steffan153",
+  "description": "jq support for highlight.js",
+  "main": "src/languages/jq.js",
+  "scripts": {},
   "files": [
-    "src/languages/your-language.js"
+    "src/languages/jq.js"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jf990/highlightjs-language-template.git"
+    "url": "https://github.com/Steffan153/highlightjs-jq.git"
   },
   "keywords": [
-    "your-language",
+    "jq",
     "javascript",
     "highlight",
     "highlight.js",
@@ -23,13 +21,8 @@
     "syntax",
     "template"
   ],
-  "license": "BSD-3-Clause",
-  "bugs": {
-    "url": "https://github.com/jf990/highlightjs-language-template/issues"
-  },
-  "homepage": "https://github.com/jf990/highlightjs-language-template",
+  "homepage": "https://github.com/Steffan153/highlightjs-jq",
   "devDependencies": {
-    "highlight.js": "^10.7.1",
-    "jasmine": "^3.7.0"
+    "highlight.js": "^11.9.0"
   }
 }
